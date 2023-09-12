@@ -6,13 +6,13 @@
  *
  * @c: checks input of function
  *
- * Return: returns 1 if `c`is lowercase
+ * Return: returns 1 if `c` is lowercase
  * otherwise always 0 (Success)
 */
 
 int _islower(int c)
 {
-    if (c >= 97 && <= 122)
-	    return (1);
-    return (0);
+	if (c >= 97 && <= 122)
+		return (1);
+	return (0);
 }
